@@ -219,7 +219,7 @@
 }
 #second #order_list .title{
 	position: absolute;
-	top: 20%;
+	top:105px;
 	color: #ffffff;
 	font-size: 0;
 	height: 48px;
@@ -237,7 +237,7 @@
 }
 #second #order_list .list{
 	position: absolute;
-	top: 30%;
+	top: 165px;
 	color: #ffffff;
 	font-size: 0;
 	height: 105px;
@@ -285,7 +285,7 @@
 }
 #second #order_list .submit{
 	position: absolute;
-	top: 78%;
+	top: 220px;
 	left: 50%;
 	width: 200px;
 	height: 80px;
@@ -634,7 +634,7 @@
 		font-size: 25px;
 	}
 	#second section{
-		top: 105px;
+		top: 140px;
 	}
 	#second #mojing > p{
 		font-size: 35px;
@@ -649,7 +649,7 @@
 		line-height: 30px;
 	}
 	#second #order_list .list{
-		top: 28%;
+		/* top: 28%; */
 	}
 	#second #order_list .list>span{
 		width: 180px;
@@ -668,7 +668,7 @@
 		font-size: 22px;
 	}
 	#second #order_list .submit{
-		top: 60%;
+		top: 330px;
 		width: 140px;
 		height: 60px;
 		line-height: 60px;
@@ -757,9 +757,6 @@
 		font-size: 30px;
 	}
 }
-/* @media (max-height: 620px){
-
-} */
 @media (max-width: 768px){
 	#second #order_list .title{
 		min-width: 
@@ -851,8 +848,6 @@
 		line-height: 55px;
 		font-size: 25px;
 	}
-}
-@media (max-width: 560px){
 	#second #mojing .steps{
 		margin-left: -100px;
 		transform: scaleX(0.5);
