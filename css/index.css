@@ -54,7 +54,7 @@ html,body{
 	background:#2B3238;
 	position: fixed;
 	top: 0px;
-	/*min-width: 1250px;*/
+	min-width: 950px;
 	z-index: 1000;
 }
 #header .nav_logo{
@@ -126,57 +126,6 @@ html,body{
 	width: 100%;
 	height: 100%;
 }
-/*汉堡菜单按钮*/
-/* #header  .menu_icon{
-	display: none;
-	width: 46px;
-	height: 46px;
-	border-radius: 50%;
-	border:2px solid #fff;
-	background: #000;
-	position: absolute;
-	right: 7%;
-	top: 31%;
-	cursor: pointer;
-}
-#header  .menu_icon span{
-	width: 70%;
-	position: absolute;
-	left: 15%;
-	height: 2px;
-	background: #fff;
-}
-#header  .menu_icon span:nth-child(1){
-	top: 28%;
-}
-#header  .menu_icon span:nth-child(2){
-	top: 50%;
-}
-#header  .menu_icon span:nth-child(3){
-	top: 73%;
-} */
-/*菜单的下拉*/
-/* #header .nav_sm{
-	position: absolute;
-	top: 80px;
-	width: 100%;
-	display: none;
-}
-#header .nav_sm li{
-	height: 30px;
-	background: #2B3238;
-	width: 100%;
-}
-#header .nav_sm li a{
-	display: block;
-	text-decoration: none;
-	width: 100%;
-	height: 100%;
-	font-size: 25px;
-	color: #fff;
-	padding-left: 30px;
-} */
-
 /*第一屏部分*/
 #first{
 	height: 100%;
@@ -364,7 +313,10 @@ html,body{
 	}
 
 }
-@media (max-width: 992px){
+@media (max-height: 678px){
+	#third .meunList{
+		top: 20%;
+	}
 	#header .nav_logo{
 		left: 35px;
 	}
@@ -392,7 +344,7 @@ html,body{
 		background-position: 0px 53%;
 	}
 	#header .nav .option a{
-		font-size: 13px;
+		font-size: 15px;
 	}
 	#header .nav .login{
 		width: 60px;
@@ -404,7 +356,7 @@ html,body{
 	}
 	#header .nav_logo .nav_logo_name{
 		line-height: 40px;
-		font-size: 18px;
+		font-size: 20px;
 	}
 	#first #taste_about .taste,
 	#first #taste_about .about{
@@ -443,11 +395,5 @@ html,body{
 	#third .footer .email{
 		color: #FFFFFF;
 		font-size: 9px;
-	}
-
-}
-@media (max-height: 678px){
-	#third .meunList{
-		top: 20%;
 	}
 }

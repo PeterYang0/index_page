@@ -212,7 +212,7 @@
 	font-size: 32px;	
 	margin-bottom: 10px;
 	color: #ffffff;
-	letter-spacing:5px
+	letter-spacing:5px;
 }
 #second #order_list .steps{
 	margin-top: 26px;
@@ -634,7 +634,7 @@
 		font-size: 25px;
 	}
 	#second section{
-		top: 140px;
+		top: 115px;
 	}
 	#second #mojing > p{
 		font-size: 35px;
@@ -709,186 +709,8 @@
 		width: 205px;
 		font-size: 30px;
 	}
-}
-/*兼容宽度*/
-@media (max-width: 992px){
-	#second #order_num > p{
-		font-size: 25px;
-	}
-	#second section{
-		top: 105px;
-	}
-	#second #order_list .title span{
-		width: 180px;
-		height: 30px;
-		font-size: 22px;
-		line-height: 30px;
-	}
-	#second #order_list .list{
-		top: 28%;
-	}
-	#second #order_list .list>span{
-		width: 180px;
-		height: 60px;
-		font-size: 22px;
-		line-height: 60px;
-	}
-	#second #order_list .list>span.accuracy:after,
-	#second #order_list .list>span.type:after{
-		top: 30px;
-	}
-	#second #order_list .list>span>div>div{
-		width: 180px;
-		height: 30px;
-		line-height: 30px;
-		font-size: 22px;
-	}
-	#second #order_list .submit{
-		top: 60%;
-		width: 140px;
-		height: 60px;
-		line-height: 60px;
-	}
-	#second #order_comfirmation .comfirmation_list{
-		margin-top: 55px;
-	}
-	#second #order_comfirmation .comfirmation_list span{
-		width: 205px;
-		font-size: 30px;
-	}
-}
-@media (max-width: 768px){
-	#second #order_list .title{
-		min-width: 
-	}
-	#second #order_list .title span{
-		width: 85px;
-		height: 35px;
-		font-size: 18px;
-		line-height: 35px;
-	}
-	#second #order_list .list{
-		top: 120px;
-	}
-	#second #order_list .list>span{
-		width: 85px;
-		height: 50px;
-		font-size: 18px;
-		line-height: 50px;
-	}
-	#second #order_list .list>span.accuracy:after,
-	#second #order_list .list>span.type:after{
-		top: 24px;
-		right: 4px;
-		border-width: 6px 6px 0 6px;
-	}
-	#second #order_list .list>span>div>div{
-		width: 85px;
-		height:35px;
-		line-height: 35px;
-		font-size: 18px;
-	}
-	#second #order_list .submit{
-		top: 280px;
-		width: 85px;
-		height: 40px;
-		line-height: 40px;
-	}
-	#second #order_save .isSave{
-		margin-top: 35px;
-		font-size: 25px;
-	}
-	#second #order_save .title{
-		min-width: 290px;
-	}
-	
-	#second #order_save .title>span{
-		font-size: 25px;
-		width: 135px;
-		height: 55px;
-		line-height: 55px;
-	}
-	#second #order_save .list{
-		width: 272px;
-	}
-	#second #order_save .list .list_line{
-		height: 55px;
-		line-height: 55px;
-	}
-	#second #order_save .list .list_line span{
-		font-size: 25px;
-	    height: 55px;
-	    line-height: 55px;
-	}
-	#second #order_comfirmation .comfirmation_list{
-		min-width: 260px;
-		margin-top: 45px;
-	}
-	#second #order_comfirmation .comfirmation_list span{
-		width: 85px;
-		font-size: 20px;
-	}
 	#second #order_comfirmation .total{
-		width: 240px;
-		height: 100px;
-		font-size: 40px;
-		line-height: 100px;
-	}
-	#second #order_comfirmation .total:before{
-		font-size: 25px;
-	}
-	#second #order_comfirmation .total:after{
-		font-size: 37px;
-		line-height: 100px;
-		left: 23%;
-	}
-	#second #order_comfirmation .settlement{
-		width: 110px;
-		height: 55px;
-		line-height: 55px;
-		font-size: 25px;
-	}
-	#second #mojing .steps{
-		margin-left: -100px;
-		transform: scaleX(0.5);
-		margin-top: 25px;
-	}
-	#uploader .queueList{
-		width: 90%;
-		height: 200px;
-	}
-	#second section{
-		top: 100px;
-	}
-	#second #order_num .steps,
-	#second #order_list .steps,
-	#second #order_save .steps,
-	#second #order_comfirmation .steps{
-		transform: scaleX(0.5);
-		margin-left: -110px;
-	}
-	#second #order_num > p{
-		font-size: 25px;
-	}
-	#second #order_num .sure_num>p{
-		font-size:22px;
-	}
-	#second #order_num .sure_num{
-	    width: 180px;
-	    height: 210px;
-	    top: 105px;
-	}
-	#second #order_num .sure_num .circle{
-		width: 150px;
-		height: 150px;
-	}
-	#second #order_num .sure_num .circle span{
-		font-size:26px;
-	}
-	#second #order_num .sure_num>span{
-		width: 80px;
-		height: 40px;
-		line-height: 40px;
-		bottom: -65px;
+		width: 350px;
+		height: 115px;
 	}
 }

@@ -26,6 +26,9 @@
     background-size: 100% 100%;
 }
 @media (max-height: 670px){
+    #uploader .queueList{
+        height: 230px;
+    }
 }
 .element-invisible {
     position: absolute !important;
