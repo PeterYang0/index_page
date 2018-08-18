@@ -1,0 +1,899 @@
+#second section{
+	position: absolute;
+	left: 8%;
+	right: 8%;
+	top: 20%;
+	bottom: 0;
+}
+#second #mojing>p{
+	font-size: 45px;	
+	margin-bottom: 10px;
+	color: #ffffff;
+	letter-spacing:5px;
+	padding-left: 17px;
+}
+#second #mojing .steps{
+	padding-left: 17px;
+	margin-top: 45px;
+	width: 460px;
+	height: 25px;
+	margin-bottom: 6%;
+}
+#second section .steps{
+	width: 460px;
+	height: 25px;
+}
+#second section .steps>div{
+	cursor: pointer;
+	float: left;
+}
+#second section .steps>div+div{
+	margin-left: -23px;
+}
+#second section .steps .steps_one,
+#second section .steps .steps_five{
+	font-size:16px;
+	display:block;
+	color:#fff;
+	height: 0;
+	width: 70px;
+	line-height:25px;
+	border-width: 0px 25px 25px 0px;
+	border-style: none solid solid;
+	border-color: transparent transparent #4D9584;
+}
+#second section .steps .steps_five{
+	-moz-transform: scaleX(-1);
+	-webkit-transform: scaleX(-1); 
+	-o-transform: scaleX(-1);
+	transform: scaleX(-1);
+}
+#second section .steps .steps_two,
+#second section .steps .steps_three,
+#second section .steps .steps_four{
+	border-color:transparent transparent #4D9584;
+	border-style:none solid solid;
+	border-width:0 25px 25px;
+	display:block;
+	height:0;
+	left:-10px;
+	width:70px;
+}
+#second section .steps .steps_two,
+#second section .steps .steps_four{
+    -moz-transform:rotate(180deg);/*FF浏览器*/
+    -webkit-transform:rotate(180deg);/*chrome浏览器*/
+    -o-transform:rotate(180deg);/*oprea浏览器*/
+	-ms-transform:rotate(180deg);/*IE浏览器*/
+}
+#second section .steps>div.active{
+	border-color: transparent transparent #71F8D0;
+}
+#second section .steps>div.active:after{
+	content: '';
+	display: block;
+	width: 15px;
+	height: 15px;
+	text-align: center;
+	line-height: 15px;
+	color: #ffffff;
+	border: 1px solid #ffffff;
+	border-radius: 50%;
+	margin-left: 45%;
+	margin-top: 5px;
+}
+#second section .steps>div:nth-child(2):after,
+#second section .steps>div:nth-child(4):after{
+    -moz-transform:rotate(180deg);/*FF浏览器*/
+    -webkit-transform:rotate(180deg);/*chrome浏览器*/
+    -o-transform:rotate(180deg);/*oprea浏览器*/
+	-ms-transform:rotate(180deg);/*IE浏览器*/
+	margin-top: 3px;
+}
+#second section .steps>div:nth-child(5):after{
+	-moz-transform: scaleX(-1);
+	-webkit-transform: scaleX(-1); 
+	-o-transform: scaleX(-1);
+	transform: scaleX(-1);
+}
+#second section .steps>div:nth-child(1).active:after{
+	content: '1';
+}
+#second section .steps>div:nth-child(2).active:after{
+	content: '2';
+}
+#second section .steps>div:nth-child(3).active:after{
+	content: '3';
+}
+#second section .steps>div:nth-child(4).active:after{
+	content: '4';
+}
+#second section .steps>div:nth-child(5).active:after{
+	content: '5';
+}
+#second section .steps>div.active.complete:after{
+	content: '√';
+}
+#second #mojing{
+	display: block;
+	background:#2B3238;
+}
+/*照片张数部分*/
+#second #order_num{
+	display: none;
+	background:#2B3238;
+}
+#second #order_num > p{
+	font-size: 32px;	
+	margin-bottom: 10px;
+	color: #ffffff;
+	letter-spacing:5px
+}
+#second #order_num .steps{
+	margin-top: 26px;
+}
+#second #order_num .sure_num{
+	position: absolute;
+	width: 330px;
+	height: 364px;
+	top: 120px;
+	left: 50%;
+	transform:translateX(-50%);
+	background: #7F1E86;
+}
+#second #order_num .sure_num>p{
+	text-align: center;
+	color: rgba(255,255,255,0.6);
+	font-size: 38px;
+}
+#second #order_num .sure_num .circle{
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	width: 264px;
+	height: 264px;
+	bottom: 3%;
+	border-radius: 50%;
+	border:1px solid #A17ACF;
+	box-shadow: 0 0 13px  #A17ACF;
+}
+#second #order_num .sure_num .circle span{
+	display: block;
+	position: absolute;
+	bottom: 50%;
+	right: 20%;
+	transform: translateY(50%);
+	-webkit-transform: translateY(50%);
+	-moz-transform: translateY(50%);
+	-ms-transform: translateY(50%);
+	-o-transform: translateY(50%);
+	font-size: 45px;
+	color: #ffffff;
+}
+#second #order_num .sure_num .circle span#circle_num{
+	left: 20%;
+}
+#second #order_num .sure_num>span{
+	position: absolute;
+	bottom: -30%;
+	display: block;
+	width: 108px;
+	height: 50px;
+	color: #ffffff;
+	font-size: 25px;
+	line-height: 50px;
+	text-align: center;
+	cursor: pointer;
+}
+#second #order_num .sure_num .sure{
+	left: -20px;
+	background-image: url(../imgs/sure.png) ;
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-size: 100% 100%;
+}
+#second #order_num .sure_num .change{
+	right: -20px;
+	background-image: url(../imgs/change.png) ;
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-size: 100% 100%;
+}
+/*选择精度列表*/
+#second #order_list{
+	display: none;
+	background:#2B3238;
+}
+#second #order_list > p{
+	font-size: 32px;	
+	margin-bottom: 10px;
+	color: #ffffff;
+	letter-spacing:5px
+}
+#second #order_list .steps{
+	margin-top: 26px;
+}
+#second #order_list .title{
+	position: absolute;
+	top: 20%;
+	color: #ffffff;
+	font-size: 0;
+	height: 48px;
+	width: 100%;
+	line-height: 50px;
+	text-align: center;
+}
+#second #order_list .title span{
+	font-size: 35px;
+	display: inline-block;
+	width: 250px;
+}
+#second #order_list .title span+span{
+	border-left: 1px solid #6FF9D0;
+}
+#second #order_list .list{
+	position: absolute;
+	top: 30%;
+	color: #ffffff;
+	font-size: 0;
+	height: 105px;
+	width: 100%;
+	line-height: 105px;
+	text-align: center;
+}
+#second #order_list .list>span{
+	cursor: pointer;
+	position: relative;
+	font-size: 35px;
+	display: inline-block;
+	width: 250px;
+	border:1px solid #6FF9D0;
+	margin:0,0,0,0;
+}
+#second #order_list .list span+span{
+	border-left: none;
+}
+#second #order_list .list>span.accuracy:after,
+#second #order_list .list>span.type:after{
+    position: absolute;
+    right: 17px;
+    top: 54px;
+    width: 0;
+    height: 0;
+    content: "";
+    border-width: 8px 8px 0 8px;
+    border-style: solid;
+    border-color: #6FF9D0 transparent;
+    cursor: pointer;
+}
+#second #order_list .list>span>div{
+	position: absolute;
+	left: -1px;
+}
+#second #order_list .list>span>div>div+div{
+	border-top: none;
+}
+#second #order_list .list>span>div>div{
+	width: 250px;
+	border:1px solid #6FF9D0;
+	height: 70px;
+	line-height: 70px;
+}
+#second #order_list .submit{
+	position: absolute;
+	top: 78%;
+	left: 50%;
+	width: 200px;
+	height: 80px;
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	background-image: url(../imgs/sure.png) ;
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-size: 100% 100%;
+	color: #ffffff;
+	text-align: center;
+	line-height: 80px;
+	font-size: 30px;
+	cursor: pointer;
+}
+/*是否云储存*/
+#second #order_save{
+	display: none;
+	background:#2B3238;
+}
+#second #order_save > p{
+	font-size: 32px;	
+	margin-bottom: 10px;
+	color: #ffffff;
+	letter-spacing:5px
+}
+#second #order_save .steps{
+	margin-top: 26px;
+}
+#second #order_save .isSave{
+	margin-top: 2%;
+	text-align: center;
+	font-size: 38px;
+}
+#second #order_save .title{
+	margin-top: 3%;
+	text-align: center;
+	font-size: 0;
+}
+#second #order_save .title>span{
+	cursor: pointer;
+	display: inline-block;
+	width: 220px;
+	height: 80px;
+	font-size: 42px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 80px;
+	border:1px solid #6FF9D0;
+}
+#second #order_save .title>span.save_yes{
+	border-right: none;
+}
+#second #order_save .title>span.active{
+	background: #6FF9D0;
+}
+#second #order_save .list{
+	width: 443px;
+	margin:10px auto 0;
+}
+#second #order_save .list .list_line{
+	cursor: pointer;
+	box-sizing: border-box;
+	padding-left: 30px;
+	padding-right: 60px;
+	width: 100%;
+	height: 80px;
+	line-height: 80px;
+	overflow: hidden;
+	border:1px solid #6FF9D0;
+}
+#second #order_save .list .list_line+.list_line{
+	border-top: none;
+}
+#second #order_save .list .list_line span{
+	font-size: 36px;
+	color: #ffffff;
+	line-height: 80px;
+}
+#second #order_save .list .list_line.active{
+	background: #6FF9D0;
+}
+#second #order_save .list .list_line span.save_price{
+	float: right;
+}
+/*订单确认页面*/
+#second #order_comfirmation{
+	display: none;
+	background:#2B3238;
+}
+#second #order_comfirmation > p{
+	font-size: 32px;	
+	margin-bottom: 10px;
+	color: #ffffff;
+	letter-spacing:5px
+}
+#second #order_comfirmation .steps{
+	margin-top: 26px;
+}
+
+#second #order_comfirmation .comfirmation_list{
+	margin-top:2%;
+	text-align: center;
+	font-size: 0;
+}
+#second #order_comfirmation .comfirmation_list span {
+	display: inline-block;
+	width: 250px;
+	height: 80px;
+	color: #71F9CE;
+	line-height: 80px;
+	font-size: 40px;
+}
+#second #order_comfirmation .total{
+	position: relative;
+	margin-left: 50%;
+	margin-top: 8%;
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	width: 400px;
+	height: 140px;
+	font-size: 55px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 140px;
+	background-image: url(../imgs/total_border.png) ;
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-size: 100% 100%;
+
+}
+#second #order_comfirmation .total:before{
+	content: '总价：';
+	position: absolute;
+	width: 360px;
+	height: 60px;
+	top: -50%;
+	left: 0;
+	text-align: left;
+	font-size: 40px;
+	line-height: 60px;
+}
+#second #order_comfirmation .total:after{
+	content: '￥';
+	position: absolute;
+	width: 30px;
+	height: 140px;
+	top: 2%;
+	left: 25%;
+	text-align: left;
+	font-size: 45px;
+	line-height: 140px;
+}
+
+#second #order_comfirmation .settlement{
+	width: 150px;
+	height: 70px;
+	background-image: url(../imgs/sure.png) ;
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-size: 100% 100%;
+	margin-left: 50%;
+	margin-top: 6%;
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	color: #ffffff;
+	font-size: 38px;
+	text-align: center;
+	line-height: 70px;
+	cursor: pointer;
+}
+#second #pinjie{
+	display: none;
+	background:#2B3238;
+	left: 3%;
+	right: 3%;
+	bottom: 5%;
+	top: 165px;
+	padding-left:5%;
+	padding-top: 55px;
+	border:2px solid #71F8D0;
+	border-image:linear-gradient(90deg,#71F8D0 0%,#2A8A96 50%) 30 30;
+}
+#second #pinjie:after{
+	content: '';
+	position: absolute;
+	bottom: -2px;
+	right: -4%;
+	width: 160px;
+	height: 40px;
+	background-image: url(../imgs/pinjie.png) ;
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-size: 100% 100%;
+	cursor: pointer;
+}
+#second #pinjie span{
+	display: block;
+	padding-top: 10px;
+	width: 60px;
+	font-size: 26px;
+	color: #ffffff;
+	border-top: 1px solid #71F8D0;
+}
+#second #pinjie p{
+	margin-top: 20px;
+	width: 220px;
+	font-size: 18px;
+	color: rgba(255,255,255,0.8);
+}
+#second #pinjie p.pinjie_ing{
+	margin-top: 20px;
+	width: 100%;
+	text-align: center;
+	font-size: 35px;
+	margin-top: 5%;
+}
+#second #pinjie .progress_bar{
+	overflow: hidden;
+	border-radius: 10px;
+	position: relative;
+	width: 30%;
+	height: 20px;
+	margin-left: 50%;
+	margin-top: 50px;
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	background-image: url(../imgs/black_progress.png) ;
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-size: 100% 100%;
+}
+#second #pinjie .progress{
+	position: absolute;
+	width: 65%;
+	height: 100%;
+	background-image: url(../imgs/green_progress.png) ;
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-size: 100% 100%;
+}
+#second #pinjie span.progress_num{
+	position: relative;
+	width: 100%;
+	border:none;
+	display: block;
+	font-size: 20px;
+	color: #71F8D0;
+	text-align: center;
+	margin-top: 3%;
+}
+#second #pinjie span.progress_num:after{
+	position: absolute;
+	content: '%';
+	right: 50%;
+	transform: translateX(30px);
+	-webkit-transform: translateX(30px);
+	-moz-transform: translateX(30px);
+	-ms-transform: translateX(30px);
+	-o-transform: translateX(30px);
+}
+
+
+
+
+/*兼容不同高度*/
+@media (max-height: 800px){
+	#second section{
+		top: 130px;
+	}
+	#second #mojing .imgs{
+		top: 220px;
+		height: 270px;
+	}
+	#second #order_num .sure_num{
+		width: 240px;
+		height: 280px;
+	}
+	#second #order_num .sure_num>p{
+		text-align: center;
+		color: rgba(255,255,255,0.6);
+		font-size: 28px;
+	}
+	#second #order_num .sure_num .circle{
+		width: 192px;
+		height: 192px;
+	}
+	#second #order_num .sure_num .circle span{
+		font-size: 32px;
+		right: 3%
+	}
+	#second #order_list .submit{
+		top: 80%;
+	}
+	#second #order_comfirmation .total{
+		margin-top: 6%;
+	}
+	#second #order_comfirmation .settlement{
+		margin-top:3%;
+	}
+		#header .nav_logo{
+		left: 35px;
+	}
+	#lunbo .content{
+		left: 130px;
+	}
+}
+@media (max-height:670px ){
+	#second #order_num > p{
+		font-size: 25px;
+	}
+	#second #order_num .sure_num>p{
+		font-size:22px;
+	}
+	#second #order_num .sure_num{
+	    width: 180px;
+	    height: 210px;
+	    top: 105px;
+	}
+	#second #order_num .sure_num .circle{
+		width: 150px;
+		height: 150px;
+	}
+	#second #order_num .sure_num .circle span{
+		font-size:26px;
+	}
+	#second #order_num .sure_num>span{
+		width: 80px;
+		height: 40px;
+		line-height: 40px;
+		bottom: -65px;
+	}
+	#second #order_num > p{
+		font-size: 25px;
+	}
+	#second section{
+		top: 105px;
+	}
+	#second #mojing > p{
+		font-size: 35px;
+	}
+	#second #mojing .steps{
+		margin-top: 35px;
+	}
+	#second #order_list .title span{
+		width: 180px;
+		height: 30px;
+		font-size: 22px;
+		line-height: 30px;
+	}
+	#second #order_list .list{
+		top: 28%;
+	}
+	#second #order_list .list>span{
+		width: 180px;
+		height: 60px;
+		font-size: 22px;
+		line-height: 60px;
+	}
+	#second #order_list .list>span.accuracy:after,
+	#second #order_list .list>span.type:after{
+		top: 30px;
+	}
+	#second #order_list .list>span>div>div{
+		width: 180px;
+		height: 30px;
+		line-height: 30px;
+		font-size: 22px;
+	}
+	#second #order_list .submit{
+		top: 60%;
+		width: 140px;
+		height: 60px;
+		line-height: 60px;
+	}
+	#second #order_comfirmation .comfirmation_list{
+		margin-top: 55px;
+	}
+	#second #order_comfirmation .comfirmation_list span{
+		width: 205px;
+		font-size: 30px;
+	}
+	#second #order_save .isSave{
+		margin-top: 35px;
+		font-size: 25px;
+	}
+	#second #order_save .title>span{
+		font-size: 25px;
+		width: 135px;
+		height: 55px;
+		line-height: 55px;
+	}
+	#second #order_save .list{
+		width: 272px;
+	}
+	#second #order_save .list .list_line{
+		height: 55px;
+		line-height: 55px;
+	}
+	#second #order_save .list .list_line span{
+		font-size: 25px;
+	    height: 55px;
+	    line-height: 55px;
+	}
+	#second #order_comfirmation .comfirmation_list{
+		margin-top: 20px;
+	}
+	#second #order_comfirmation .comfirmation_list span{
+		width: 205px;
+		font-size: 30px;
+	}
+}
+/*兼容宽度*/
+@media (max-width: 992px){
+	#second #order_num > p{
+		font-size: 25px;
+	}
+	#second section{
+		top: 105px;
+	}
+	#second #order_list .title span{
+		width: 180px;
+		height: 30px;
+		font-size: 22px;
+		line-height: 30px;
+	}
+	#second #order_list .list{
+		top: 28%;
+	}
+	#second #order_list .list>span{
+		width: 180px;
+		height: 60px;
+		font-size: 22px;
+		line-height: 60px;
+	}
+	#second #order_list .list>span.accuracy:after,
+	#second #order_list .list>span.type:after{
+		top: 30px;
+	}
+	#second #order_list .list>span>div>div{
+		width: 180px;
+		height: 30px;
+		line-height: 30px;
+		font-size: 22px;
+	}
+	#second #order_list .submit{
+		top: 60%;
+		width: 140px;
+		height: 60px;
+		line-height: 60px;
+	}
+	#second #order_comfirmation .comfirmation_list{
+		margin-top: 55px;
+	}
+	#second #order_comfirmation .comfirmation_list span{
+		width: 205px;
+		font-size: 30px;
+	}
+}
+/* @media (max-height: 620px){
+
+} */
+@media (max-width: 768px){
+	#second #order_list .title{
+		min-width: 
+	}
+	#second #order_list .title span{
+		width: 85px;
+		height: 35px;
+		font-size: 18px;
+		line-height: 35px;
+	}
+	#second #order_list .list{
+		top: 120px;
+	}
+	#second #order_list .list>span{
+		width: 85px;
+		height: 50px;
+		font-size: 18px;
+		line-height: 50px;
+	}
+	#second #order_list .list>span.accuracy:after,
+	#second #order_list .list>span.type:after{
+		top: 24px;
+		right: 4px;
+		border-width: 6px 6px 0 6px;
+	}
+	#second #order_list .list>span>div>div{
+		width: 85px;
+		height:35px;
+		line-height: 35px;
+		font-size: 18px;
+	}
+	#second #order_list .submit{
+		top: 280px;
+		width: 85px;
+		height: 40px;
+		line-height: 40px;
+	}
+	#second #order_save .isSave{
+		margin-top: 35px;
+		font-size: 25px;
+	}
+	#second #order_save .title{
+		min-width: 290px;
+	}
+	
+	#second #order_save .title>span{
+		font-size: 25px;
+		width: 135px;
+		height: 55px;
+		line-height: 55px;
+	}
+	#second #order_save .list{
+		width: 272px;
+	}
+	#second #order_save .list .list_line{
+		height: 55px;
+		line-height: 55px;
+	}
+	#second #order_save .list .list_line span{
+		font-size: 25px;
+	    height: 55px;
+	    line-height: 55px;
+	}
+	#second #order_comfirmation .comfirmation_list{
+		min-width: 260px;
+		margin-top: 45px;
+	}
+	#second #order_comfirmation .comfirmation_list span{
+		width: 85px;
+		font-size: 20px;
+	}
+	#second #order_comfirmation .total{
+		width: 240px;
+		height: 100px;
+		font-size: 40px;
+		line-height: 100px;
+	}
+	#second #order_comfirmation .total:before{
+		font-size: 25px;
+	}
+	#second #order_comfirmation .total:after{
+		font-size: 37px;
+		line-height: 100px;
+		left: 23%;
+	}
+	#second #order_comfirmation .settlement{
+		width: 110px;
+		height: 55px;
+		line-height: 55px;
+		font-size: 25px;
+	}
+}
+@media (max-width: 560px){
+	#second #mojing .steps{
+		margin-left: -100px;
+		transform: scaleX(0.5);
+		margin-top: 25px;
+	}
+	#uploader .queueList{
+		width: 90%;
+		height: 200px;
+	}
+	#second section{
+		top: 100px;
+	}
+	#second #order_num .steps,
+	#second #order_list .steps,
+	#second #order_save .steps,
+	#second #order_comfirmation .steps{
+		transform: scaleX(0.5);
+		margin-left: -110px;
+	}
+	#second #order_num > p{
+		font-size: 25px;
+	}
+	#second #order_num .sure_num>p{
+		font-size:22px;
+	}
+	#second #order_num .sure_num{
+	    width: 180px;
+	    height: 210px;
+	    top: 105px;
+	}
+	#second #order_num .sure_num .circle{
+		width: 150px;
+		height: 150px;
+	}
+	#second #order_num .sure_num .circle span{
+		font-size:26px;
+	}
+	#second #order_num .sure_num>span{
+		width: 80px;
+		height: 40px;
+		line-height: 40px;
+		bottom: -65px;
+	}
+}
